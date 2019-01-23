@@ -1,0 +1,32 @@
+
+Call:
+lm(formula = price ~ priceByArea + size + rooms + bathrooms + 
+    floor + numPhotos + distance + Ozono + NO + NO2 + PM10 + 
+    NOx, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-430597  -31335   -5248   26248  952945 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -6.593e+05  1.363e+06  -0.484  0.62862    
+priceByArea  1.493e+02  2.504e+00  59.648  < 2e-16 ***
+size         2.757e+03  5.664e+01  48.676  < 2e-16 ***
+rooms        7.412e+03  2.488e+03   2.979  0.00294 ** 
+bathrooms   -2.433e+04  4.219e+03  -5.767  9.8e-09 ***
+floor        1.455e+01  4.046e+02   0.036  0.97131    
+numPhotos   -1.255e+02  1.919e+02  -0.654  0.51320    
+distance     1.764e+01  1.345e+01   1.312  0.18986    
+Ozono        4.401e+03  2.298e+04   0.191  0.84817    
+NO           1.217e+05  1.703e+05   0.715  0.47501    
+NO2          7.513e+04  1.088e+05   0.690  0.49015    
+PM10         2.193e+03  1.147e+03   1.913  0.05600 .  
+NOx         -7.631e+04  1.054e+05  -0.724  0.46924    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 71350 on 1476 degrees of freedom
+Multiple R-squared:  0.9194,	Adjusted R-squared:  0.9188 
+F-statistic:  1404 on 12 and 1476 DF,  p-value: < 2.2e-16
+
