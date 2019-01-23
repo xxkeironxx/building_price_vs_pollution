@@ -1,0 +1,26 @@
+
+Call:
+lm(formula = price ~ priceByArea + size + rooms + bathrooms + 
+    floor + numPhotos + distance, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-490213  -34060   -4722   27031  961095 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -3.427e+05  1.077e+04 -31.831  < 2e-16 ***
+priceByArea  1.445e+02  2.363e+00  61.170  < 2e-16 ***
+size         2.897e+03  5.694e+01  50.872  < 2e-16 ***
+rooms        3.475e+03  2.585e+03   1.344   0.1791    
+bathrooms   -2.435e+04  4.338e+03  -5.612 2.38e-08 ***
+floor       -4.351e+02  4.177e+02  -1.042   0.2977    
+numPhotos   -2.703e+02  1.991e+02  -1.358   0.1748    
+distance     2.069e+01  9.076e+00   2.280   0.0227 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 73830 on 1481 degrees of freedom
+Multiple R-squared:  0.9152,	Adjusted R-squared:  0.9148 
+F-statistic:  2283 on 7 and 1481 DF,  p-value: < 2.2e-16
+

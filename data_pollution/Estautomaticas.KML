@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="LayerFolder_check">
+      <ListStyle>
+        <listItemType>check</listItemType>
+      </ListStyle>
+    </Style>
+    <Style id="LayerFolder_checkHideChildren">
+      <ListStyle>
+        <listItemType>checkHideChildren</listItemType>
+      </ListStyle>
+    </Style>
+    <Style id="LayerFolder_checkOffOnly">
+      <ListStyle>
+        <listItemType>checkOffOnly</listItemType>
+      </ListStyle>
+    </Style>
+    <Style id="LayerFolder_radioFolder">
+      <ListStyle>
+        <listItemType>radioFolder</listItemType>
+      </ListStyle>
+    </Style>
+    <name>OPEN_DATA_WMS</name>
+    <Style id="style_symbol_CIRCULO_10.0_ffff0000">
+      <IconStyle>
+        <Icon>
+          <href>http://mapas.valencia.es/WebsMunicipales/tmp/587dd26f_2136_0.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>ESTAUTOMATICAS</name>
+      <visibility>1</visibility>
+      <styleUrl>#LayerFolder_check</styleUrl>
+      <Placemark>
+        <name>Viveros</name>
+        <styleUrl>#style_symbol_CIRCULO_10.0_ffff0000</styleUrl>
+        <ExtendedData>
+          <Data name="nombre">
+            <displayName>nombre</displayName>
+            <value><![CDATA[Viveros]]></value>
+          </Data>
+          <Data name="direccion">
+            <displayName>direccion</displayName>
+            <value><![CDATA[Jardines de Viveros]]></value>
+          </Data>
+          <Data name="tipozona">
+            <displayName>tipozona</displayName>
+            <value><![CDATA[Urbana]]></value>
+          </Data>
+          <Data name="tipoemision">
+            <displayName>tipoemision</displayName>
+            <value><![CDATA[Fondo]]></value>
+          </Data>
+          <Data name="parametros">
+            <displayName>parametros</displayName>
+            <value><![CDATA[Dióxido de azufre (SO2),Óxidos de nitrógeno totales (NOx),Monóxido de nitrógeno (NO),Dióxido de nitrógeno (NO2),Ozono,Benceno (Benc),Tolueno (Tolue),Xileno (Xilen),Nivel de presión sonora (SPL),Partículas PM2.5,Partículas PM10,Niquel (Ni),Arsénico (As),Plomo (Pb),Benzo(a)pireno (BaP),Cadmio (Cd)]]></value>
+          </Data>
+          <Data name="mediciones">
+            <displayName>mediciones</displayName>
+            <value><![CDATA[http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/5A.csv]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+	-0.36964822,39.47964093
+	</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Francia</name>
+        <styleUrl>#style_symbol_CIRCULO_10.0_ffff0000</styleUrl>
+        <ExtendedData>
+          <Data name="nombre">
+            <displayName>nombre</displayName>
+            <value><![CDATA[Francia]]></value>
+          </Data>
+          <Data name="direccion">
+            <displayName>direccion</displayName>
+            <value><![CDATA[Avda. de Francia, 60]]></value>
+          </Data>
+          <Data name="tipozona">
+            <displayName>tipozona</displayName>
+            <value><![CDATA[Urbana]]></value>
+          </Data>
+          <Data name="tipoemision">
+            <displayName>tipoemision</displayName>
+            <value><![CDATA[Tráfico]]></value>
+          </Data>
+          <Data name="parametros">
+            <displayName>parametros</displayName>
+            <value><![CDATA[Dióxido de azufre (SO2),Monóxido de carbono (CO),Ozono,Óxidos de nitrógeno totales (NOx),Monóxido de nitrógeno (NO),Dióxido de nitrógeno (NO2),Partículas PM10,Partículas PM2.5,Partículas PM1,Velocidad de viento (Veloc.)]]></value>
+          </Data>
+          <Data name="mediciones">
+            <displayName>mediciones</displayName>
+            <value><![CDATA[http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/6A.csv]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+	-0.34266034,39.45752246
+	</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boulevar Sur</name>
+        <styleUrl>#style_symbol_CIRCULO_10.0_ffff0000</styleUrl>
+        <ExtendedData>
+          <Data name="nombre">
+            <displayName>nombre</displayName>
+            <value><![CDATA[Boulevar Sur]]></value>
+          </Data>
+          <Data name="direccion">
+            <displayName>direccion</displayName>
+            <value><![CDATA[Avda. Tres Cruces s/n (Parking Cementerio de Valencia)]]></value>
+          </Data>
+          <Data name="tipozona">
+            <displayName>tipozona</displayName>
+            <value><![CDATA[Urbana]]></value>
+          </Data>
+          <Data name="tipoemision">
+            <displayName>tipoemision</displayName>
+            <value><![CDATA[Tráfico]]></value>
+          </Data>
+          <Data name="parametros">
+            <displayName>parametros</displayName>
+            <value><![CDATA[Dióxido de azufre (SO2),Ozono,Óxidos de nitrógeno totales (NOx),Monóxido de nitrógeno (NO),Dióxido de nitrógeno (NO2),Partículas PM10,Niquel (Ni),Arsénico (As),Plomo (Pb),Benzo(a)pireno (BaP),Cadmio (Cd)]]></value>
+          </Data>
+          <Data name="mediciones">
+            <displayName>mediciones</displayName>
+            <value><![CDATA[http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/7A.csv]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+	-0.39633756,39.45039601
+	</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universidad Politécnica</name>
+        <styleUrl>#style_symbol_CIRCULO_10.0_ffff0000</styleUrl>
+        <ExtendedData>
+          <Data name="nombre">
+            <displayName>nombre</displayName>
+            <value><![CDATA[Universidad Politécnica]]></value>
+          </Data>
+          <Data name="direccion">
+            <displayName>direccion</displayName>
+            <value><![CDATA[Campus de la U. Politécnica. Avda. Tarongers]]></value>
+          </Data>
+          <Data name="tipozona">
+            <displayName>tipozona</displayName>
+            <value><![CDATA[Suburbana]]></value>
+          </Data>
+          <Data name="tipoemision">
+            <displayName>tipoemision</displayName>
+            <value><![CDATA[Fondo]]></value>
+          </Data>
+          <Data name="parametros">
+            <displayName>parametros</displayName>
+            <value><![CDATA[Dióxido de azufre (SO2),Ozono,Óxidos de nitrógeno totales (NOx),Monóxido de nitrógeno (NO),Dióxido de nitrógeno (NO2),Partículas PM10,Partículas PM2.5,Partículas PM1]]></value>
+          </Data>
+          <Data name="mediciones">
+            <displayName>mediciones</displayName>
+            <value><![CDATA[http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/1A.csv]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+	-0.33740066,39.47964450
+	</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molí del Sol</name>
+        <styleUrl>#style_symbol_CIRCULO_10.0_ffff0000</styleUrl>
+        <ExtendedData>
+          <Data name="nombre">
+            <displayName>nombre</displayName>
+            <value><![CDATA[Molí del Sol]]></value>
+          </Data>
+          <Data name="direccion">
+            <displayName>direccion</displayName>
+            <value><![CDATA[Avda. Pío Baroja - Avda. General Avilés]]></value>
+          </Data>
+          <Data name="tipozona">
+            <displayName>tipozona</displayName>
+            <value><![CDATA[Suburbana]]></value>
+          </Data>
+          <Data name="tipoemision">
+            <displayName>tipoemision</displayName>
+            <value><![CDATA[Tráfico]]></value>
+          </Data>
+          <Data name="parametros">
+            <displayName>parametros</displayName>
+            <value><![CDATA[Dióxido de azufre (SO2),Monóxido de carbono (CO),Ozono,Óxidos de nitrógeno totales (NOx),Monóxido de nitrógeno (NO),Dióxido de nitrógeno (NO2),Partículas PM10,Partículas PM2.5,Partículas PM1]]></value>
+          </Data>
+          <Data name="mediciones">
+            <displayName>mediciones</displayName>
+            <value><![CDATA[http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/3A.csv]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+	-0.40879332,39.48110609
+	</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pista de Silla</name>
+        <styleUrl>#style_symbol_CIRCULO_10.0_ffff0000</styleUrl>
+        <ExtendedData>
+          <Data name="nombre">
+            <displayName>nombre</displayName>
+            <value><![CDATA[Pista de Silla]]></value>
+          </Data>
+          <Data name="direccion">
+            <displayName>direccion</displayName>
+            <value><![CDATA[C/ Filipinas, s/n]]></value>
+          </Data>
+          <Data name="tipozona">
+            <displayName>tipozona</displayName>
+            <value><![CDATA[Urbana]]></value>
+          </Data>
+          <Data name="tipoemision">
+            <displayName>tipoemision</displayName>
+            <value><![CDATA[Tráfico]]></value>
+          </Data>
+          <Data name="parametros">
+            <displayName>parametros</displayName>
+            <value><![CDATA[Dióxido de azufre (SO2),Monóxido de carbono (CO),Ozono,Óxidos de nitrógeno totales (NOx),Monóxido de nitrógeno (NO),Dióxido de nitrógeno (NO2),Partículas PM10,Nivel de presión sonora (SPL),Velocidad de viento (Veloc.),Temperatura media (Temp.),Humedad relativa (H.Rel.),Radiación solar (R.Sol.),Presión barométrica (Pres.)]]></value>
+          </Data>
+          <Data name="mediciones">
+            <displayName>mediciones</displayName>
+            <value><![CDATA[http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/4A.csv]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+	-0.37664394,39.45806095
+	</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
